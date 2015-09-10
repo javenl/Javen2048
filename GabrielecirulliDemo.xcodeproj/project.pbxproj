@@ -208,6 +208,9 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
+					4A86F99B18E1173500FC9409 = {
+						DevelopmentTeam = BUYF36UPH9;
+					};
 					4A86F9BC18E1173500FC9409 = {
 						TestTargetID = 4A86F99B18E1173500FC9409;
 					};
@@ -387,10 +390,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GabrielecirulliDemo/GabrielecirulliDemo-Prefix.pch";
 				INFOPLIST_FILE = "GabrielecirulliDemo/GabrielecirulliDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,10 +406,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GabrielecirulliDemo/GabrielecirulliDemo-Prefix.pch";
 				INFOPLIST_FILE = "GabrielecirulliDemo/GabrielecirulliDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
